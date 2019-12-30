@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split.each(".", "?", "!") do |x|
+    self.split.each('.', '?', '!') do |x|
       x.count
     end
       binding.pry
